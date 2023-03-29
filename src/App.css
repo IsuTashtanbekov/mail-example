@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1200px;
+  font-family: 'Inter', sans-serif;
+  padding: 0 20px 0 20px;
+}
+
+span {
+  font-family: Arial, sans-serif; /* задаем шрифт */
+  font-size: 16px; /* задаем размер шрифта */
+  color: #333; /* задаем цвет текста */
+  text-decoration: none; /* убираем подчеркивание ссылки */
+}
