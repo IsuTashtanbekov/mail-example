@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IsuTashtanbekov/mail-example/static/css/main.71848f3f.css",
+    "main.js": "/IsuTashtanbekov/mail-example/static/js/main.7ff999bb.js",
+    "static/js/787.fc5b3581.chunk.js": "/IsuTashtanbekov/mail-example/static/js/787.fc5b3581.chunk.js",
+    "index.html": "/IsuTashtanbekov/mail-example/index.html",
+    "main.71848f3f.css.map": "/IsuTashtanbekov/mail-example/static/css/main.71848f3f.css.map",
+    "main.7ff999bb.js.map": "/IsuTashtanbekov/mail-example/static/js/main.7ff999bb.js.map",
+    "787.fc5b3581.chunk.js.map": "/IsuTashtanbekov/mail-example/static/js/787.fc5b3581.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71848f3f.css",
+    "static/js/main.7ff999bb.js"
+  ]
+}
