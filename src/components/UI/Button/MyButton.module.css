@@ -1,0 +1,44 @@
+/* MyButton.module.css */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 64px;
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1976d2;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.02857em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 5px 5px 0px 5px;
+}
+
+.btn:hover {
+    background-color: #1565c0;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.3);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    background: none;
+}

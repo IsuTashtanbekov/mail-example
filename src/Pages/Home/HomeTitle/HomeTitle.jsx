@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './HomeTitle.module.css'
-import Redirect from "./Redirect/Redirect";
+import Redirect from "../Redirect/Redirect";
 
 const HomeTitle = () => {
     return (

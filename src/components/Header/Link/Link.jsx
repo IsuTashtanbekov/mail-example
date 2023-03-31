@@ -6,7 +6,7 @@ const Link = () => {
         <nav className={style.navbar}>
             <ul className={style.navbarList}>
                 <li className={style.navbarItem}>
-                    <NavLink to="/" exact className={style.navbarLink}  activeClassName={style.active}>
+                    <NavLink to="/home" exact className={style.navbarLink}  activeClassName={style.active}>
                         Главная
                     </NavLink>
                 </li>
@@ -16,12 +16,12 @@ const Link = () => {
                     </NavLink>
                 </li>
                 <li className={style.navbarItem}>
-                    <NavLink to={style.tutorial} className={style.navbarLink} activeClassName={style.active}>
+                    <NavLink to='/agreement' className={style.navbarLink} activeClassName={style.active}>
                         Подписка
                     </NavLink>
                 </li>
                 <li className={style.navbarItem}>
-                    <NavLink to={style.tutorial} className={style.navbarLink} activeClassName={style.hello}>
+                    <NavLink to='/about' className={style.navbarLink} activeClassName={style.hello}>
                         О компании
                     </NavLink>
                 </li>

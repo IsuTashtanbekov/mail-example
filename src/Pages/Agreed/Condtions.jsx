@@ -1,8 +1,14 @@
 import React from 'react';
+import style from './Condtions.module.css'
+import MyDivider from "../../components/UI/Divider/MyDivider";
+import Header from "../../components/Header/Header";
 
-const Condtions = () => {
+const Agreement = () => {
     return (
-        <div>
+        <div className={style.agreementBlock}>
+            <Header/>
+            <MyDivider/>
+            <img src="https://kyrgyzpost.kg/wp-content/uploads/2019/07/%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80-25-%D0%BB%D0%B5%D1%82-1799-%D1%85-447-px-1024x254.png" alt="банер"/>
             <h1>
                 Подписка
             </h1>
@@ -60,4 +66,4 @@ const Condtions = () => {
     );
 };
 
-export default Condtions;
+export default Agreement;

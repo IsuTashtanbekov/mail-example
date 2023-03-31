@@ -5,14 +5,18 @@
     border-top-right-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .navbarList {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
+    /*background: #6c757d;*/
 }
 
 .navbarItem {
@@ -32,7 +36,8 @@
 .navbarLink:hover,
 .navbarLink:focus {
     color: #007bff;
-    text-decoration: none;
+    /*text-decoration: underline black;*/
+    text-transform: uppercase;
     background-color: #f8f9fa;
     cursor: pointer;
 }
@@ -40,11 +45,11 @@
 .navbarLink.active {
     color: #fff;
     background-color: #007bff;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 .active {
     text-transform: uppercase;
-    background-color: #6c757d;
+    /*background-color: teal;*/
     padding: 100px;
 }
